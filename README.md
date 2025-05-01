@@ -1,10 +1,6 @@
 # WorldOS
 
 <p align="center">
-  <img src="assets/worldos-logo.png" alt="WorldOS Logo" width="200" height="200">
-</p>
-
-<p align="center">
   <strong>An integrated operating system for the world, life, and social interactions</strong>
 </p>
 
