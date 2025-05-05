@@ -36,6 +36,9 @@ The personal layer that provides tools and interfaces for individuals to navigat
 - Personalized assistants tailored to individual needs and goals
 - Tools for managing health, productivity, and personal growth
 - User-friendly interfaces for interacting with the World OS memory layer
+- Automatic cataloging of people, texts, and events encountered in daily life
+- Comprehensive storage of authors, co-authors, and reviewers from all consumed content
+- Storage of both raw prompts and synthesized data to preserve information lineage
 
 ### 3. Social OS - Social Automation Layer
 Facilitates and optimizes social interactions and relationships between individuals and groups.
@@ -44,6 +47,9 @@ Facilitates and optimizes social interactions and relationships between individu
 - Collaboration and communication platforms
 - Social network and relationship management tools
 - Conflict resolution and cooperation mechanisms
+- Automatic tracking and organization of social relationships and interactions
+- Mapping of all social verticals and network connections
+- JTBD (Jobs To Be Done) framework integration for capturing social context and purpose
 
 ### 4. Hypersocial - Human-AI Translation Layer
 Bridges the gap between human irrationality and AI rationality, enabling AI to understand the complexity of human behavior.
