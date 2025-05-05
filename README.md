@@ -179,7 +179,14 @@ WorldOS provides structured methods for tracking and interconnecting people, con
     {"name": "Scott Alexander", "role": "contributor", "order": 2},
     {"name": "Thomas Larsen", "role": "contributor", "order": 3},
     {"name": "Eli Lifland", "role": "contributor", "order": 4},
-    {"name": "Romeo Dean", "role": "contributor", "order": 5}
+    {"name": "Romeo Dean", "role": "contributor", "order": 5},
+    {"name": "Oliver Habryka", "role": "contributor", "order": 6},
+    {"name": "Ruby Bloom", "role": "contributor", "order": 7},
+    {"name": "Jacob Lagerros", "role": "contributor", "order": 8},
+    {"name": "Ben Pace", "role": "contributor", "order": 9},
+    {"name": "Raymond Arnold", "role": "contributor", "order": 10},
+    {"name": "Rafe Kennedy", "role": "contributor", "order": 11},
+    {"name": "Robert Mushkatblat", "role": "contributor", "order": 12}
   ],
   "sections": [
     {"name": "Summary", "path": "/summary"},
@@ -189,7 +196,15 @@ WorldOS provides structured methods for tracking and interconnecting people, con
   "social_network_analysis": {
     "related_entities": [
       {"name": "Scott Alexander", "affiliations": ["Astral Codex Ten", "LessWrong"]},
-      {"name": "Eli Lifland", "affiliations": ["Quantified Uncertainty Research Institute"]}
+      {"name": "Eli Lifland", "affiliations": ["Quantified Uncertainty Research Institute"]},
+      {"name": "Oliver Habryka", "affiliations": ["LessWrong", "Lightcone Infrastructure"]},
+      {"name": "Ben Pace", "affiliations": ["LessWrong", "Lightcone Infrastructure"]},
+      {"name": "Jacob Lagerros", "affiliations": ["EA Funds", "LessWrong"]},
+      {"name": "Raymond Arnold", "affiliations": ["LessWrong"]}
+    ],
+    "community_clusters": [
+      {"name": "Rationalist Community", "members": ["Scott Alexander", "Oliver Habryka", "Ben Pace", "Raymond Arnold"]},
+      {"name": "AI Safety", "members": ["Daniel Kokotajlo", "Eli Lifland", "Jacob Lagerros"]}
     ],
     "conceptual_framework": "Multi-level game theory applied to AI prediction markets"
   }
