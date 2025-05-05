@@ -60,6 +60,153 @@ Bridges the gap between human irrationality and AI rationality, enabling AI to u
 - World as arena: understanding territories, order/chaos, hierarchies
 - Dopamine systems and human motivation modeling
 
+## Example Implementations
+
+### Academic and Media Content Tracking
+
+WorldOS provides structured methods for tracking and interconnecting people, content, and social relationships. Below are examples of how the system captures and organizes this information:
+
+#### Example 1: Academic Paper Acknowledgments
+
+```json
+{
+  "content_type": "academic_paper",
+  "title": "AI as Normal Technology",
+  "publication_date": "2025-04-14",
+  "url": "https://knightcolumbia.org/content/ai-as-normal-technology",
+  "permalink": "https://perma.cc/HVN8-QGQY",
+  "publisher": "Knight First Amendment Institute",
+  "authors": [
+    {
+      "name": "Arvind Narayanan",
+      "role": "primary_author",
+      "affiliation": "Princeton University",
+      "position": "Professor of Computer Science",
+      "other_roles": ["Knight Institute Visiting Senior Research Scientist (2022-2023)"]
+    },
+    {
+      "name": "Sayash Kapoor",
+      "role": "primary_author",
+      "affiliations": [
+        "Mozilla",
+        "Princeton University Center for Human Values",
+        "Princeton University Center for Information Technology Policy"
+      ],
+      "positions": [
+        "Senior Fellow",
+        "Laurance S. Rockefeller Fellow",
+        "Computer Science Ph.D. Candidate"
+      ]
+    }
+  ],
+  "reviewers": [
+    {
+      "name": "Gillian Hadfield",
+      "role": "detailed_reviewer",
+      "comment_stage": "during_and_after_workshop"
+    },
+    {
+      "name": "Seth Lazar",
+      "role": "detailed_reviewer",
+      "comment_stage": "during_and_after_workshop"
+    },
+    {
+      "name": "Anonymous Peer Reviewer",
+      "role": "detailed_reviewer",
+      "comment_stage": "during_and_after_workshop"
+    }
+  ],
+  "workshop_participants": [
+    {"name": "Alex Abdo", "organization": "Knight First Amendment Institute"},
+    {"name": "Borhane Blili-Hamelin"},
+    {"name": "Kevin Feng"},
+    {"name": "Henry Farrell"},
+    {"name": "Katy Glenn-Bass"},
+    {"name": "Atoosa Kasirzadeh"},
+    {"name": "Sydney Levine"},
+    {"name": "Nik Marda"},
+    {"name": "Deirdre Mulligan"},
+    {"name": "Daniel Susskind"}
+  ],
+  "additional_feedback": [
+    {"name": "Shazeda Ahmed"},
+    {"name": "Dean Ball"},
+    {"name": "Nicholas Carlini"},
+    {"name": "Alan Chan"},
+    {"name": "Ajeya Cotra"},
+    {"name": "Justin Curl"},
+    {"name": "Jeffrey Ding"},
+    {"name": "Benjamin Edelman"},
+    {"name": "Jobst Heitzig"},
+    {"name": "Noam Kolt"},
+    {"name": "Mihir Kshirsagar"},
+    {"name": "Timothy B. Lee"},
+    {"name": "Steve Newman"},
+    {"name": "David Robinson"},
+    {"name": "Matthew Salganik"},
+    {"name": "Zachary Siegel"},
+    {"name": "Ollie Stephenson"},
+    {"name": "Zach Vertin"}
+  ],
+  "editorial_support": [
+    {"name": "Shira Minsk", "role": "editorial_support"},
+    {"name": "Mandy Soulsby-Bodart", "role": "editorial_support"}
+  ],
+  "organizational_feedback": [
+    {"organization": "MINT lab", "institution": "Australian National University"},
+    {"organization": "Limits to Prediction course", "institution": "Princeton University"}
+  ],
+  "social_network_analysis": {
+    "primary_institutions": ["Princeton University", "Mozilla", "Knight Institute"],
+    "collaboration_clusters": [
+      {"cluster": "AI Ethics", "members": ["Arvind Narayanan", "Sayash Kapoor", "Gillian Hadfield"]},
+      {"cluster": "Information Technology Policy", "members": ["Arvind Narayanan", "Sayash Kapoor", "Deirdre Mulligan"]}
+    ]
+  }
+}
+```
+
+#### Example 2: Website with Multiple Contributors
+
+```json
+{
+  "content_type": "website",
+  "title": "AI 2027",
+  "url": "ai-2027.com",
+  "domain": "prediction_forecast",
+  "contributors": [
+    {"name": "Daniel Kokotajlo", "role": "contributor", "order": 1},
+    {"name": "Scott Alexander", "role": "contributor", "order": 2},
+    {"name": "Thomas Larsen", "role": "contributor", "order": 3},
+    {"name": "Eli Lifland", "role": "contributor", "order": 4},
+    {"name": "Romeo Dean", "role": "contributor", "order": 5}
+  ],
+  "sections": [
+    {"name": "Summary", "path": "/summary"},
+    {"name": "Research", "path": "/research"},
+    {"name": "About", "path": "/about"}
+  ],
+  "social_network_analysis": {
+    "related_entities": [
+      {"name": "Scott Alexander", "affiliations": ["Astral Codex Ten", "LessWrong"]},
+      {"name": "Eli Lifland", "affiliations": ["Quantified Uncertainty Research Institute"]}
+    ],
+    "conceptual_framework": "Multi-level game theory applied to AI prediction markets"
+  }
+}
+```
+
+These examples demonstrate how WorldOS captures not just basic metadata, but rich social structures, relationships, and interconnections between people and content. The system automatically tracks:
+
+1. Primary content creators and their roles
+2. Hierarchical relationships within contributor groups
+3. Institutional affiliations and positions
+4. Feedback and review processes
+5. Social and professional connections between individuals
+6. Conceptual frameworks and domains
+
+This information becomes part of the unified knowledge graph, enabling users to navigate connections between people, content, and ideas across their entire ecosystem of interactions.
+
 ## Getting Started
 
 _This section will be expanded as the project develops._
